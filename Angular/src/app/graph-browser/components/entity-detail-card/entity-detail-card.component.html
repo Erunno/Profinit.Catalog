@@ -1,0 +1,31 @@
+<div class="second-layer">
+  <div class="close-btn"
+    [ngClass]="{'hidden' : !showCard}">
+    <app-close-button (clickedOnClose)="sendCloseUp()"></app-close-button>
+  </div>
+</div>
+<div class="user-detail white-red-background"
+    [ngClass]="{'hidden' : !showCard}">
+  <div class="ml-4 mr-4 mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="name-container">
+            <div class="vertical-align">
+              <h3  class="m-0 dark-red">Brabec</h3>
+              <h5 class="light-red">Matyas</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="profile-img-container">
+            <img
+            src="https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/19095449_1421952804552902_341928064615862021_o.jpg?_nc_cat=107&ccb=2&_nc_sid=09cbfe&_nc_ohc=IhkmUzeT1hcAX-1HVHR&_nc_ht=scontent-frt3-1.xx&oh=a8121899c6756319cdb08de5e02fc75e&oe=601ECD3D"
+            class="profile-img img-fluid float-left"
+            alt="profile photo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

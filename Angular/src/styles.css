@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+.vertical-align {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* colors */
+.dark-red {
+  color: #BC3732;
+}
+.light-red {
+  color: #ea726e;
+}
+.dark-red-background {
+  background-color: #BC3732;
+}
+.light-red-background {
+  background-color: #ea726e;
+}
+.white-red-background {
+  background-color: #fff7f7F0;
+}

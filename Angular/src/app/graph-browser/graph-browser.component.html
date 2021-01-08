@@ -1,0 +1,7 @@
+<app-graph-canvas
+  [nodes]="nodes"
+  [edges]="edges"
+  (clickedOnNode)="clicked($event)"></app-graph-canvas>
+
+
+<app-entity-detail-card *ngIf="cardOpen" (clickedClose)="onClose()"></app-entity-detail-card>

@@ -1,3 +1,5 @@
+import { Edge } from './graph-browser/models/edge';
+import { Node } from './graph-browser/models/node';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +9,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Catalog-Angular';
+
+
+
 }
